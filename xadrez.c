@@ -6,6 +6,7 @@ int main() {
 // Torre : 5 casas para a direita.
 // bispo : 5 casas para diagonal = para cima e à direita.
 // rainha: 8 casas para a esquerda.
+// Cavalo: 2 casa para cima e 1 para esquerda.
             
 
 // Torre 
@@ -37,6 +38,26 @@ do {
     r--;
 
 }while(r > 0);
+
+
+// Cavalo 
+
+
+    int movimentocompleto = 1;
+    int i;
+
+    while (movimentocompleto--)
+    {
+    for(i = 0; i < 2; i++){
+        printf("Cima\n");
+    
+
+    }
+     
+    printf("Esquerda\n");
+
+    }  
+  
 
 
 
