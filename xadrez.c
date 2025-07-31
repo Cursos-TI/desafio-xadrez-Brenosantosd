@@ -59,12 +59,74 @@ do {
     }  
   
 
+    //Movendo a torre com Recursividade . Torre : 5 casas para a direita.
+
+    void movertorre(int casas) {
+    if(casas > 0){
+
+        printf("direita\n");
+
+        movertorre(casas - 1);
+    }
+     
+}
+
+ int main(){
+
+ movertorre(5);
+   
+   return 0;
+}  
+     
+
+    //Movendo o Bispo com Recursividade . Bispo : 5 casas para diagonal = para cima e à direita.
+
+
+    void moverbispo(int casas) {
+if(casas > 0){
+
+    printf("Cima, esquerda\n");
+
+    moverbispo(casas - 1);
+}
+
+}  
+
+int main(){
+
+ moverbispo(5); 
 
 
 
+ return 0;
 
-
-
-    return 0;
 
 }
+
+
+//Movendo a Rainha com recursividade. Rainha: 8 casas para a esquerda.
+
+void moverrainha(int casas) {
+    if( casas > 0) {
+
+        printf("Esquerda\n");
+
+        moverrainha(casas - 1);
+    }
+
+}
+
+int main(){
+
+    moverrainha(8);
+
+
+return 0;
+
+}
+
+
+
+
+
+
